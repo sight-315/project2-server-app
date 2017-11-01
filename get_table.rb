@@ -10,6 +10,6 @@ doc = Nokogiri::HTML(html)
 # binding.pry
 
 # 例：h2要素のみを抜き出す
-doc.css('h2').each do |node|
+doc.css('table').each do |node|
   puts node.text
 end
